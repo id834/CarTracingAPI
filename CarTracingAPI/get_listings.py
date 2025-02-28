@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 # Base URL for the Toyota listings (pagination will be handled with page numbers)
 base_url = 'https://www.autotrader.com/cars-for-sale/All-Cars/Honda'
 
-# Loop through the first three pages
+# Loop through the first three pages jgjgjg
 for page_num in range(1, 4):  # Loop for pages 1, 2, and 3
     print(f"\nScraping page {page_num}...\n")
     
